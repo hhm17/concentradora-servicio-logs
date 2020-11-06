@@ -40,19 +40,19 @@ public class Log {
 	@Column(name = "resp_pt")
 	private String respPt;
 
-	@Column(name = "resp_ref")
+	@Column(name = "num_ref")
 	private String numRef;
 
-	@Column(name = "resp_conf")
+	@Column(name = "num_conf")
 	private long numConf;
 
-	@Column(name = "resp_unico_pt")
+	@Column(name = "num_unico_pt")
 	private long numUnicoPt;
 
 	@Column(name = "reversada")
 	private int reversada;
 
-	@Column(name = "user_id")
+	@Column(name = "userid")
 	private int userId;
 
 	@Column(name = "stAV")
